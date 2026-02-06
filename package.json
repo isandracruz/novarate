@@ -1,0 +1,23 @@
+{
+  "name": "novarate",
+  "version": "1.0.0",
+  "description": "A modern Fintech Dashboard for real-time currency tracking and market analysis. Built with NestJS, React, and MongoDB for high-performance data handling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isandracruz/novarate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isandracruz/novarate/issues"
+  },
+  "homepage": "https://github.com/isandracruz/novarate#readme",
+  "workspaces": [
+    "apps/*"
+  ]
+}
