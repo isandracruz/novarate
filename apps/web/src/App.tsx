@@ -1,11 +1,11 @@
-import Header from "./components/layout/Header/Header";
+import { MainLayout } from "./components/layout/MainLayout/MainLayout";
+import Dashboard from "./features/dashboard/Dashboard";
 
 function App() {
   return (
-    <div className="bg-background text-foreground font-display transition-colors duration-300 min-h-screen">
-      <Header />
-      <h1 className="text-3xl font-bold underline">Hello Novarate!</h1>
-    </div>
+    <MainLayout>
+      <Dashboard />
+    </MainLayout>
   );
 }
 
